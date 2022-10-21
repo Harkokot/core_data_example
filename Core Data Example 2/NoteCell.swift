@@ -42,7 +42,7 @@ class NoteCell: UITableViewCell{
         
     }
     
-    public func configure(_ note: NoteCoreData){
+    public func configure(_ note: NotesCoreData){
         dataLabel.text = note.text
     }
     
